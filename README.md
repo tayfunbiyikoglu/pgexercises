@@ -1,24 +1,23 @@
 # Pgexercises
 
-**TODO: Add description**
+Solutions of [PGExercises](https://pgexercises.com/) in Elixir and Ecto
+
+## Task list
+
+- [x] Basic
+- [ ] Joins and Subqueries
+- [ ] Aggregates
+- [ ] Date
+- [ ] String
+- [ ] Recursive
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+Make sure you have postgresql installed and you've setup the `exercises` database from PGExercises.
 
-  1. Add `pgexercises` to your list of dependencies in `mix.exs`:
+Please refer to [I want to use my own Postgres system](https://pgexercises.com/gettingstarted.html) section.
 
-    ```elixir
-    def deps do
-      [{:pgexercises, "~> 0.1.0"}]
-    end
-    ```
-
-  2. Ensure `pgexercises` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:pgexercises]]
-    end
-    ```
-
+1. Clone the Repository
+2. Run mix deps.get
+3. Provide your username and password in config.exs
+4. Run tests with `mix test`

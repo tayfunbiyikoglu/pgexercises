@@ -5,7 +5,8 @@
   config :pgexercises, Pgexercises.Repo,
     adapter: Ecto.Adapters.Postgres,
     database: "exercises",
-    username: "rain",
+    username: "[YOUR USERNAME]",
+    password: "[YOUR PASSWORD]",
     hostname: "localhost"
 
   config :pgexercises, ecto_repos: [Pgexercises.Repo]
